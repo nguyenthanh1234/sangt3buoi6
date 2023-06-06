@@ -64,6 +64,7 @@ public class ProductController {
 //                e.printStackTrace();
 //            }
 //        }
+        //
         productService.add(newProduct);
         return "redirect:/products";
     }
