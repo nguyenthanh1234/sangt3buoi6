@@ -13,6 +13,7 @@ import org.hibernate.validator.constraints.Length;
 @Entity
 @Table(name = "product")
 public class Product {
+    //hêlo
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
